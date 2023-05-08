@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div v-on:mouseover="calCoordinates">
+            <input type="text" v-on:input="changeValue">
+            <p>{{ message }}</p>
+            <a v-once v-bind:href="link">{{ title }} - {{ changePost() }}</a>
+            <p v-html="test"></p>
+            <button v-on:click="addNumber">Bấm nút để tăng giá trị</button>
+            <button v-on:click="dem++">Bấm nút để tăng giá trị bằng JavaScript</button>
+            <p>{{ number }}</p>
+            <p>{{ dem }}</p>
+            <p>Giá trị: {{ dem > 10 ? 'hợp lệ' : 'không hợp lệ' }}</p>
+            <p>Tọa độ của chuột {{ x }} / {{ y }}</p>
+            <span v-on:mouseover.stop>Dừng sự kiện</span>
+            <p>{{ name }}</p>
+        </div>
+        <p>Giá trị a: {{ tangA }}</p>
+        <p>Giá trị b: {{ tangB }}</p>
+        <button v-on:click="a++">Tang A</button>
+        <button v-on:click="b++">Tang B</button>
+        <p>{{ diem }}</p>
+        <button @click="changeLink">Click to Change link</button>
+        <a v-bind:href="linkVal">Link</a>
+
+        <div class="">
+            <input type="text" v-on:keyup.enter="keyboard">
+        </div>
+    </div>
+
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="./public.js"></script>
+</body>
