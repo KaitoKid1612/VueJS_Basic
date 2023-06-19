@@ -30,4 +30,14 @@ Phần computed và watcher làm tối ưu code
 #### Ep02 | #15 | Rút gọn với shorthand của Vue JS
 Bạn có thể dùng shorthand cho một số sự kiện 
 Ví dụ: v-on:click = @click
-#### 
+#### Ep02 | #16 | Tương tác với CSS thông qua Class Attribute
+Cách quản lý theo đối tượng 
+Quản lý đối tượng trực tiếp trên đối tượng
+Quản lý trên chính đối tượng của chính nó
+#### Ep02 | #17 | Tương tác với CSS thông qua biến Name
+Quản lý thông qua biến và thông qua name
+Ưu điểm: Thay đổi theo tên muốn thay đổi thì chỉ cần thay đổi tên
+#### Ep02 | #18 | Tương tác với CSS mà không cần class
+Không cần Css class sử dụng bằng cách JavaScript. Chú ý là khi sử dụng cách này thì phải viết tên biến theo kiểu JavaScript
+Những thuộc tính có đơn vị thêm vào cuối
+#### Ep02 | #19 | Sử dụng cú pháp mảng khi tương tác vs CSS

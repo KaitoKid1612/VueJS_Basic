@@ -9,11 +9,15 @@ var app = new Vue({
         number: 0,
         name: 'Viet',
         linkVal: 'https://www.google.com',
+        managerRed: false,
         a: 0,
         b: 0,
         x: 0,
         y: 0,
-        diem: 'Bạn A có điểm môn toán là 7'
+        diem: 'Bạn A có điểm môn toán là 7',
+        color: 'black',
+        width: 100,
+        height: 50
     },
     computed: {
         tangA: function(event) {
@@ -21,6 +25,19 @@ var app = new Vue({
         },
         tangB: function(event) {
             return this.b;
+        },
+        divClasses: function() {
+            return {
+                red: this.managerRed,
+                black: !this.managerRed
+            }
+        },
+        customStyles: function() {
+            return {
+                backgroundColor: this.color,
+                width: this.width + 'px',
+                // height: this.height + 'px'
+            }
         }
     },
     watch: {
