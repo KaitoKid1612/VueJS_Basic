@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VueJS Loop</title>
+</head>
+<body>
+    <div id="app">
+        <p>Are you student ?</p>
+        <p v-if="determination">Yes, I am</p>
+        <p v-else>No, I'm a teacher</p>
+        <button @click="determination = !determination">Change condition</button>
+
+        <template v-if="determination"> 
+            <div>Menu 1</div>
+            <div>Menu 1</div>
+            <div>Menu 1</div>
+            <div>Menu 1</div>
+            <div>Menu 1</div>
+        </template>
+        <p v-show="determination">Test show element</p>
+
+        <!-- Getting the Current Index -->
+        <ul>
+            <li v-for="(menu, i) in menus" :key="menu">{{ menu }} with index is: {{ i }}</li>
+        </ul>
+
+        <!-- <template v-for="(menu, index) in menus">
+            <h3>{{ menu }}</h3>
+            <p>{{ index }}</p>
+        </template> -->
+
+        <ul>
+            <li v-for="student in students">
+                <div v-for="(value, key, index) in student">{{ key }}: {{ value }}({{ index }})</div>
+            </li>
+        </ul>
+        <button @click="menus.push('test')">Add new item menu</button>
+
+        <!-- Looping through a List of Numbers -->
+        <div v-for="item in 10">{{ item }}</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="./public.js"></script>
+</body>
+</html>

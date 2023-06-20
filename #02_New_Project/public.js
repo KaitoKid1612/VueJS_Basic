@@ -36,7 +36,7 @@ var app = new Vue({
             return {
                 backgroundColor: this.color,
                 width: this.width + 'px',
-                // height: this.height + 'px'
+                height: this.height + 'px'
             }
         }
     },
