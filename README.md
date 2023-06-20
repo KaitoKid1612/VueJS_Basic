@@ -1,3 +1,18 @@
+<p align="center"><a href="https://vuejs.org" target="_blank" rel="noopener noreferrer"><img width="100" src="https://vuejs.org/images/logo.png" alt="Vue logo"></a></p>
+
+<p align="center">
+  <a href="https://circleci.com/gh/vuejs/vue/tree/dev"><img src="https://img.shields.io/circleci/project/github/vuejs/vue/dev.svg" alt="Build Status"></a>
+  <a href="https://codecov.io/github/vuejs/vue?branch=dev"><img src="https://img.shields.io/codecov/c/github/vuejs/vue/dev.svg" alt="Coverage Status"></a>
+  <a href="https://npmcharts.com/compare/vue?minimal=true"><img src="https://img.shields.io/npm/dm/vue.svg" alt="Downloads"></a>
+  <a href="https://www.npmjs.com/package/vue"><img src="https://img.shields.io/npm/v/vue.svg" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/vue"><img src="https://img.shields.io/npm/l/vue.svg" alt="License"></a>
+  <a href="https://chat.vuejs.org/"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="Chat"></a>
+  <br>
+  <a href="https://app.saucelabs.com/builds/50f8372d79f743a3b25fb6ca4851ca4c"><img src="https://app.saucelabs.com/buildstatus/vuejs" alt="Build Status"></a>
+</p>
+
+<h2 align="center">Supporting Vue.js</h2>
+
 # VueJS_Basic
 ## Tất cả dữ liệu truyền qua HTML đều là dữ liệu thô
 #### Ep02 | #04 | Kỹ thuật bind và sử dụng trong HTML Tag
@@ -90,3 +105,18 @@ Looping through a List of Numbers
 #### Ep03 | #09 | Khả năng keep track của Vue.js, cách hoạt động
 Khả năng theo dõi phần tử thay đổi. Không xoá hết toàn bộ mà in tiếp vàoo phần tử tiếp theo của mảng
 Khi bạn duyệt vòng lặp và có 5 phần tử menu thì VueJS sẽ sinh ra 5 cái unique key assign
+---
+### First Project with VueJS
+#### Ep04 | #01 | Thiết lập Mini Project đầu tiên với Vue.js
+#### Ep04 | #02 | Thực hiện điều chỉnh lượng HP Vue.js
+#### Ep04 | #03 | Thiết lập điều kiện để bắt đầu trò chơi Vue.js
+#### Ep04 | #04 | Thiết lập các thông số khi bắt đầu trò chơi Vue.js
+#### Ep04 | #05 | Thiết lập tấn công cho đối tượng bằng Vue.js
+#### Ep04 | #06 | Thiết lập tối ưu cho tấn công Vue.js
+#### Ep04 | #07 | Xây dựng phương thức tấn công đặc biệt Vue.js
+#### Ep04 | #08 | Xây dựng phương thức hồi máu Vue.js
+#### Ep04 | #09 | Xây dựng phương thức bỏ cuộc Vue.js
+#### Ep04 | #10 | Thiết lập phương thức log cho trò chơi Vue.js
+#### Ep04 | #11 | Phương thức hiển thị quá trình chơi game Vue.js 
+#### Ep04 | #12 | Sửa một số lỗi hiển thị của trò chơi Vue.js
+#### Ep04 | #13 | Style cho hiển thị log trong trò chơi Vue.js
