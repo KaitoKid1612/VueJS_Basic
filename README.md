@@ -103,9 +103,10 @@ Có thể sử dụng value, key, index
 #### Ep03 | #08 | Xét duyệt vòng lặp for theo thứ tự Vue.js
 Looping through a List of Numbers
 #### Ep03 | #09 | Khả năng keep track của Vue.js, cách hoạt động
-Khả năng theo dõi phần tử thay đổi. Không xoá hết toàn bộ mà in tiếp vàoo phần tử tiếp theo của mảng
+Khả năng theo dõi phần tử thay đổi. Không xoá hết toàn bộ mà in tiếp vàoo phần tử tiếp theo của mảng.
 Khi bạn duyệt vòng lặp và có 5 phần tử menu thì VueJS sẽ sinh ra 5 cái unique key assign
----
+<!-- -->
+----------------------------------------------------------------------------------
 ### First Project with VueJS
 #### Ep04 | #01 | Thiết lập Mini Project đầu tiên với Vue.js
 #### Ep04 | #02 | Thực hiện điều chỉnh lượng HP Vue.js
@@ -120,3 +121,32 @@ Khi bạn duyệt vòng lặp và có 5 phần tử menu thì VueJS sẽ sinh ra
 #### Ep04 | #11 | Phương thức hiển thị quá trình chơi game Vue.js 
 #### Ep04 | #12 | Sửa một số lỗi hiển thị của trò chơi Vue.js
 #### Ep04 | #13 | Style cho hiển thị log trong trò chơi Vue.js
+----------------------------------------------------------------------------------
+### How about VueJS Instance
+#### Ep05 | #01 | Một vài điều cơ bản về Vue.js Instance
+Trong VueJS có thể tạo nhiều Instance để quản lý nhiều đối tượng
+Đối tượng nào thì quản lý cái nào khôngg quản lý cái khác
+#### Ep05 | #02 | Sử dụng Multiple Vue.js Instance
+Cách sử dụng Multiple Instance và cách truy cập từ bên ngoài Instance
+Có thể tạo nhiều Instance
+#### Ep05 | #03 | Truy cập Vue.js Instance từ bên ngoài
+Có thể truy cập một Instance từ bên ngoài Instance đó
+#### Ep05 | #04 | Vue.js quản lý Data và Methods như thế nào?
+VueJS quản lý methods và data bằng cách có thể tạo ra bộ theo dõi getter và setter khi mà tạo các methods, property ở trong Instance. 
+Chỉ được theo dõi khi tạo trong Instance khi tạo ngoài Instance không có ý nghĩa gì hết.
+#### Ep05 | #05 | Tìm hiểu kĩ hơn về el và data trong Vue.js
+#### Ep05 | #06 | Lấy thông tin của một Object bằng refs trong Vue.js
+#### Ep05 | #07 | Tìm hiểu thêm về Vue.js API Link
+#### Ep05 | #08 | Tìm hiểu ban đầu về Component trong Vue.js
+Cách để VueJS có thể quản lý nhiều đối tượng DOM trong một Instance là tạo Component
+Component sinh ra để một Instance quản lý được nhiều đối tượng. 
+Component luôn luôn được gọi ở đầu vì Vue instance luôn phải lấy ra những dữ liệu có sẵn để mang ra để sử dụng được nếu để sau thì trong Instance phải gọi nó
+Do tính chất đầu tiên thế nên để các thẻ component quản lý ở ngoài Instance thì không quản lý được
+#### Ep05 | #09 | Cách làm việc bên trong khi update data của Vue.js
+Có 3 trạng thái làm việc với DOM trong VueJS:
+- Vue Instance
+- Virtual DOM
+- DOM
+#### Ep05 | #10 | Tìm hiểu về vòng đời hoạt động của Vue.js
+<h3 align="center" style="color: red;">VueJS Instance Lifecycle</h3>
+<p align="center"><a href="https://vuejs.org" target="_blank" rel="noopener noreferrer"><img width="100" src="https://vuejs.org/images/logo.png" alt="Vue logo"></a></p>
