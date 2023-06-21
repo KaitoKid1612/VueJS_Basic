@@ -158,3 +158,12 @@ VueJS Instance update data như thế nào ?
 Lifecycle hooks của VueJS
 
 ----------------------------------------------------------------
+### Server VueJS
+#### Ep06 | #01 | Tại sao lại là môi trường server Vue.js
+#### Ep06 | #02 | Dòng chảy khi run một đoạn code trên server Vue.js
+#### Ep06 | #03 | Tìm hiểu qua về Vue Cli cho việc phát triển Vue.js
+#### Ep06 | #04 | Cài đặt Vue Cli Simple-Project
+#### Ep06 | #05 | Tìm hiểu cấu trúc dự án khi tạo bằng Vue.js CLI
+#### Ep06 | #06 | Nghịch ngợm file App vue xem thế nào Vue.js 
+#### Ep06 | #07 | Nghịch ngợm tiếp một số thành phần trong Vue.js
+#### Ep06 | #08 | Pressing App một chút và kết thúc phần này Vue.js
