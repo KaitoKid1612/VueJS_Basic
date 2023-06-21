@@ -87,5 +87,3 @@ var app3 = new Vue({
         }
     }
 });
-
-// console.log(app3.$ref);

@@ -104,6 +104,7 @@ Có thể sử dụng value, key, index
 Looping through a List of Numbers
 #### Ep03 | #09 | Khả năng keep track của Vue.js, cách hoạt động
 Khả năng theo dõi phần tử thay đổi. Không xoá hết toàn bộ mà in tiếp vàoo phần tử tiếp theo của mảng.
+Khả năng theo dõi phần tử thay đổi. Không xoá hết toàn bộ mà in tiếp vàoo phần tử tiếp theo của mảng.
 Khi bạn duyệt vòng lặp và có 5 phần tử menu thì VueJS sẽ sinh ra 5 cái unique key assign
 
 <!-- -->
