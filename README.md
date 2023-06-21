@@ -190,3 +190,10 @@ Import đúng vị trí file.
 Nếu chúng ta không viết scope vào nó sẽ coi đó là css chung cho toàn bộ hệ thống. 
 Nếu viết có scope thì nó sẽ thêm abtribute cho nó và các phần tử con của nó để nó có thể css và phân biệt được.
 Khi sinh component thì sinh ra bấy nhiêu thẻ style. Nếu như không viết gì cho component thì thẻ style đó sẽ trống
+
+----------------------------------------------------------------
+### Component advance in VueJS
+#### Ep08 | #01 | Vấn đề khi giao thức giữa các components Vue.js
+#### Ep08 | #02 | Props giao thức giữa component cha và con Vue.js
+Props là dùng để truyền dữ liệu từ component cha sang component con.
+Các components conn truyền thông báo đến các components cha thông qua các sự kiện
