@@ -167,3 +167,26 @@ Lifecycle hooks của VueJS
 #### Ep06 | #06 | Nghịch ngợm file App vue xem thế nào Vue.js 
 #### Ep06 | #07 | Nghịch ngợm tiếp một số thành phần trong Vue.js
 #### Ep06 | #08 | Pressing App một chút và kết thúc phần này Vue.js
+
+----------------------------------------------------------------
+### Component in VueJS
+#### Ep07 | #01 | Khởi tạo một component thưở sơ khai Vue.js
+#### Ep07 | #02 | Hai kiểu sử dụng dữ liệu qua Component Vue.js
+Khai báo theo kiểu đối tượng Property thì nó sẽ share memory chung. 
+Còn tạo đối tượng chứa dữ liệu thì chứa dữ liệu riêng not share
+#### Ep07 | #03 | Đăng ký vùng hoạt động cho Component Vue.js 
+Có 2 cách để sử dụng Component chung cho hai hoặc nhiều instance:
+- Cách 1 sử dụng Vue.componet và khai báo tên component 
+- Cách 2 sử dụng khai báo component và Instance nào muốn sử dụng thì phải đăng kí với tên component ở trong Instance
+#### Ep07 | #04 | Phản biện tìm ra Root Component Vue.js
+#### Ep07 | #05 | Tạo một component trong Vue.js CLI
+Cách tạo ra một component.
+#### Ep07 | #06 | Sử dụng một component trong Vue.js CLI
+Tạo kiểu component trong global
+#### Ep07 | #07 | Sử dụng cấu trúc thư mục "tốt" trong Vue.js
+Import đúng vị trí file.
+#### Ep07 | #08 | Những cách đặt tên component trong Vue.js
+#### Ep07 | #09 | Phạm vi hoạt động style trong component Vue.js
+Nếu chúng ta không viết scope vào nó sẽ coi đó là css chung cho toàn bộ hệ thống. 
+Nếu viết có scope thì nó sẽ thêm abtribute cho nó và các phần tử con của nó để nó có thể css và phân biệt được.
+Khi sinh component thì sinh ra bấy nhiêu thẻ style. Nếu như không viết gì cho component thì thẻ style đó sẽ trống
