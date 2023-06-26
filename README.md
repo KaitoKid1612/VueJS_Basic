@@ -190,3 +190,22 @@ Import đúng vị trí file.
 Nếu chúng ta không viết scope vào nó sẽ coi đó là css chung cho toàn bộ hệ thống. 
 Nếu viết có scope thì nó sẽ thêm abtribute cho nó và các phần tử con của nó để nó có thể css và phân biệt được.
 Khi sinh component thì sinh ra bấy nhiêu thẻ style. Nếu như không viết gì cho component thì thẻ style đó sẽ trống
+
+----------------------------------------------------------------
+### Component advance in VueJS
+#### Ep08 | #01 | Vấn đề khi giao thức giữa các components Vue.js
+#### Ep08 | #02 | Props giao thức giữa component cha và con Vue.js
+Props là dùng để truyền dữ liệu từ component cha sang component con.
+Các components conn truyền thông báo đến các components cha thông qua các sự kiện
+#### Ep08 | #03 | Vấn đề tên truyền qua Props trong Vue.js
+#### Ep08 | #04 | Sử dụng Props Vue.js cho component con thế nào?
+#### Ep08 | #05 | Validating trong Props
+#### Ep08 | #06 | Tuỳ chỉnh một sự kiện trong component con Vue.js
+Để cho cha của component biết được thì con phải tạo một sự kiện để gửi lên và bên cha sẽ lắng nghe sự kiện đó
+#### Ep08 | #07 | Giao thức một chiều giữa các components Vue.js
+#### Ep08 | #08 | Việc giao thức qua Callback Functions Vue.js
+Cách sử dụng giao thức với callback functions Vue.js
+Thay đổi dữ liệu của parent and child đồng thời
+#### Ep08 | #09 | Truyền dữ liệu components con cùng cấp Vue.js
+#### Ep08 | #10 | Sử dụng sự kiện Bus cho việc giao thức Vue.js
+#### Ep08 | #11 | Tập trung bên trong sự kiện Bus nhiều hơn Vue.js
