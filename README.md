@@ -209,3 +209,18 @@ Thay đổi dữ liệu của parent and child đồng thời
 #### Ep08 | #09 | Truyền dữ liệu components con cùng cấp Vue.js
 #### Ep08 | #10 | Sử dụng sự kiện Bus cho việc giao thức Vue.js
 #### Ep08 | #11 | Tập trung bên trong sự kiện Bus nhiều hơn Vue.js
+----------------------------------------------------------------
+#### Ep09 | #01 | Thiết lập một module đơn giản trong Vue.js
+#### Ep09 | #02 | Truyền nội dung và nêu ra vấn đề gặp phải Vue.js
+#### Ep09 | #03 | Giải quyết vấn đề truyền nội dung qua Slots Vue.js
+#### Ep09 | #04 | Slots liệu có biên dịch, style bình thường Vue.js
+#### Ep09 | #05 | Sử dụng nhiều slots cùng một lúc trong Vue.js
+#### Ep09 | #06 | Default Slots và Slot Default là gì?
+#### Ep09 | #07 | Tổng hợp và chú ý kiến thức về Slots trong Vue.js
+Slot là một thẻ đẻ giữ vị trí.
+Thoả mãn tất cả nhưng gì mình viết style.
+Truyền dữ liệu qua slot thì cũng bình thường. Có thể sử dụng được multi có thể viết nhiều slot.
+Phân biệt default slot và slot default 
+#### Ep09 | #08 | Chuyển đổi giữa các components trong Vue.js
+#### Ep09 | #09 | Vấn đề khi chuyển đổi các components Vue.js
+#### Ep09 | #10 | Giữ các components alive khi chuyển đổi Vue.js
