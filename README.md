@@ -224,3 +224,15 @@ Phân biệt default slot và slot default
 #### Ep09 | #08 | Chuyển đổi giữa các components trong Vue.js
 #### Ep09 | #09 | Vấn đề khi chuyển đổi các components Vue.js
 #### Ep09 | #10 | Giữ các components alive khi chuyển đổi Vue.js
+#### Ep09 | #11 | Phát triển component Lifecycle Hooks trong Vue.js
+
+-----------------------------------------------------------------
+### Mini Project With VueJS
+#### Ep10 | #01 | Cài đặt và thiết lập cơ bản cho mini project Vue.js
+#### Ep10 | #02 | Tạo một core component trong Vue.js
+#### Ep10 | #03 | Truyền nội dung và data qua slots và props Vue.js
+#### Ep10 | #04 | Tạo một Item mới trong mini project Vue.js
+#### Ep10 | #05 | Xử lí thêm Items vào mảng tĩnh Vue.js
+#### Ep10 | #06 | Thêm hộp thông báo cho dự án Vue.js
+#### Ep10 | #07 | Xoá Item trong cho mini project Vue.js
+#### Ep10 | #08 | Xử lí thành Process Bar cho giới hạn Items Vue.js
