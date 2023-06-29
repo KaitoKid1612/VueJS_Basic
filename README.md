@@ -236,3 +236,7 @@ Phân biệt default slot và slot default
 #### Ep10 | #06 | Thêm hộp thông báo cho dự án Vue.js
 #### Ep10 | #07 | Xoá Item trong cho mini project Vue.js
 #### Ep10 | #08 | Xử lí thành Process Bar cho giới hạn Items Vue.js
+
+-----------------------------------------------------------------
+### Create a new project with VueJS
+#### Ep11 | #01 | Create todolist project
