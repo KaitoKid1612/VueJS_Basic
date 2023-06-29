@@ -1,9 +1,9 @@
 <template>
   <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-12 text-center">
       <h3>Item Added</h3>
       <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        <div class="progress-bar" role="progressbar" :style="{width: (itemCount / maxItem) * 100 + '%'}">{{ itemCount }} / {{ maxItem }}</div>
       </div>
     </div>
   </div>
@@ -11,7 +11,7 @@
 
 <script>
 export default {
-
+  props: ['itemCount', 'maxItem']
 }
 </script>
 

@@ -1,6 +1,6 @@
 <template>
   <div id="container">
-    <app-header></app-header>
+    <app-header :item-count="items.length" :max-item="maxItems"></app-header>
     <app-new-item @itemAdded="addItem"></app-new-item>
     <app-item-layout :items="items" @itemRemoved="removeItem"></app-item-layout>
     <div class="row">
@@ -23,11 +23,7 @@ import NewItem from './components/NewItem.vue';
 export default {
   data: function() {
     return {
-      items: [
-        'Hello world',
-        'Xin chao',
-        'How about you?'
-      ],
+      items: [],
       maxItems: 10
     }
   },
@@ -39,7 +35,14 @@ export default {
   },
   methods: {
     addItem(item) {
-      this.items.push(item)
+      if(this.items.length >= this.maxItems) {
+        return this.items;
+      } else if (this.items.includes(item)) {
+        return alert('Write again');
+      } else {
+        this.items.push(item)
+      }
+
     },
     removeItem(index) {
       this.items.splice(index, 1)
