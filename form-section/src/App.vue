@@ -42,7 +42,8 @@
 
                   <!-- Email input -->
                   <div class="form-outline mb-4">
-                    <input type="email" id="email" class="form-control" v-model.lazy="userData.email" />
+                    <input type="email" id="email" class="form-control" :value="userData.email"
+                      @input="userData.email = $event.target.value" />
                     <label class="form-label mt-1" for="email">Email address</label>
                   </div>
 
@@ -59,21 +60,39 @@
 
                   <!-- Checkbox -->
                   <div class="form-check form-check-inline">
-                    <input class="form-check-input" value="HTML" type="checkbox" v-model="chooseLanguage" id="html">
+                    <input class="form-check-input" value="HTML" type="checkbox" v-model="chooseLanguage" id="html" />
                     <label class="form-check-label" for="html">HTML</label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input class="form-check-input" value="PHP" type="checkbox" v-model="chooseLanguage" id="php">
+                    <input class="form-check-input" value="PHP" type="checkbox" v-model="chooseLanguage" id="php" />
                     <label class="form-check-label" for="php">PHP</label>
                   </div>
                   <div class="form-check form-check-inline">
-                    <input class="form-check-input" value="Java" type="checkbox" v-model="chooseLanguage" id="java">
+                    <input class="form-check-input" value="Java" type="checkbox" v-model="chooseLanguage" id="java" />
                     <label class="form-check-label" for="java">Java</label>
                   </div>
 
+                  <div class="form-check mt-2">
+                    <input class="form-check-input" type="radio" name="sex" value="male" v-model="gender">
+                    <label class="form-check-label" for="male">
+                      Male
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="sex" value="female" v-model="gender">
+                    <label class="form-check-label" for="female">
+                      Female
+                    </label>
+                  </div>
+
+                  <select class="form-select mt-2" v-model="selectOptions.selected">
+                    <option :selected="number" v-for="number in selectOptions.numbers" v-bind:value="number"
+                      :key="number">{{ number }}</option>
+                  </select>
+
                   <!-- Submit button -->
-                  <div class="d-flex justify-content-center mb-4">
-                    <button type="submit" class="btn btn-primary btn-block mb-4 d-flex justify-content-center">
+                  <div class="d-flex justify-content-center mb-2 mt-2">
+                    <button type="submit" class="btn btn-primary btn-block mb-2 d-flex justify-content-center">
                       Sign up
                     </button>
                   </div>
@@ -104,6 +123,7 @@
         </div>
       </div>
     </div>
+    <app-custom></app-custom>
     <div class="container">
       <div class="row">
         <h2>Your Data</h2>
@@ -116,30 +136,43 @@
         <label style="white-space: pre" for="">Message: {{ message }}</label>
         <label for="">Choose Languages: </label>
         <ul>
-          <li v-for="item in chooseLanguage" :key="item"> {{ item }} </li>
+          <li v-for="item in chooseLanguage" :key="item">{{ item }}</li>
         </ul>
+        <label for="">Sex: {{ gender }}</label>
+        <label for="">Number: {{ selectOptions.selected }}</label>
       </div>
     </div>
+
   </div>
 
   <!-- Section: Design Block -->
 </template>
 
 <script>
+import Custom from './components/customControl.vue';
+
 export default {
   data: function () {
     return {
       userData: {
-        firstName: '',
-        lastName: '',
-        email: '',
-        password: '',
+        firstName: "",
+        lastName: "",
+        email: "",
+        password: ""
       },
-      message: 'xin chao',
+      message: "",
       chooseLanguage: [],
-    }
+      gender: '',
+      selectOptions: {
+        selected: '',
+        numbers: [1, 2, 3, 4, 5, 6]
+      },
+    };
+  },
+  components: {
+    appCustom: Custom
   }
-}
+};
 </script>
 
 <style>
