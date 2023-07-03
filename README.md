@@ -434,3 +434,21 @@ Phân biệt default slot và slot default
 #### Ep12 | #08 | Sử dụng nhiều Modifiers như thế nào trong Vue.js
 
 #### Ep12 | #09 | Truyền nhiều dữ liệu phức tạp vào Directives Vue.js
+
+---
+
+#### Ep13 | #01| Tạo một local filter trong Vue.js thế nào?
+
+#### Ep13 | #02 | Tạo Global Filters và chú ý khi dùng trong Vue.js
+
+#### Ep13 | #03 | Luyện tập với Filter và thuộc tính Computed Vue.js
+
+#### Ep13 | #04 | Hiểu về mixins là gì và dùng khi nào trong Vue.js
+
+#### Ep13 | #05 | Tạo và sử dụng mixins như thế nào trong Vue.js
+
+#### Ep13 | #06 | Mixins là một component mở rộng trong Vue.js?
+
+#### Ep13 | #07 | Tạo một Global Mixins và chú ý trong Vue.js
+
+#### Ep13 | #08 | Mixins và Scope, sao lại như vậy với Vue.js
