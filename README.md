@@ -414,3 +414,23 @@ Phân biệt default slot và slot default
 #### Ep11 | #08 | Tạo một Custom Control Input Vue.js
 
 #### Ep11 | #09 | Submit một form và chú ý prevent trong Vue.js
+
+---
+
+#### Ep12 | #01 | Hiểu về Directives trước khi tuỳ biến nó Vue.js
+
+#### Ep12 | #02 | Cách làm việc của Directives trong Vue.js
+
+#### Ep12 | #03 | Tạo một Directives đơn giản trong Vue.js
+
+#### Ep12 | #04 | Truyền một giá trị vào Custom Directives Vue.js
+
+#### Ep12 | #05 | Truyền tham biến trong Custom Directives Vue.js
+
+#### Ep12 | #06 | Modify một custom Directives Vue.js với Modifiers
+
+#### Ep12 | #07 | Đăng ký local cho một directives trong Vue.js
+
+#### Ep12 | #08 | Sử dụng nhiều Modifiers như thế nào trong Vue.js
+
+#### Ep12 | #09 | Truyền nhiều dữ liệu phức tạp vào Directives Vue.js
