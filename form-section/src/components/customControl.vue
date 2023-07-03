@@ -2,16 +2,22 @@
   <div>
     <div
       id="on"
-      @click="isOn = true"
-      :class="{active: isOn}">On</div>
+      @click="switched(true)"
+      v-bind:class="{active: value}">On</div>
     <div
-      id=""
-      @click=""
-      :class="{active: !isOn}">Off</div>
+      id="off"
+      @click="switched(false)"
+      v-bind:class="{active: !value}">Off</div>
   </div>
 </template>
 <script>
 export default {
+  props: ['value'],
+  methods: {
+    switched(idOn) {
+      this.$emit('input', idOn);
+    }
+  },
   data() {
     return {
       isOn: true,
@@ -32,11 +38,11 @@ export default {
     text-align: center;
   }
 
-  #on:hover, #on:active {
+  #on:hover, #on.active {
     background-color: lightgreen;
   }
 
-  #off:hover, #off:active {
+  #off:hover, #off.active {
     background-color: lightcoral;
   }
 </style>

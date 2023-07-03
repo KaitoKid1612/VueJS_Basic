@@ -85,6 +85,12 @@
                     </label>
                   </div>
 
+                  <div>
+                    <label for="switched">Switched: </label>
+                    <app-custom
+                      v-model="dataSwitched"></app-custom>
+                  </div>
+
                   <select class="form-select mt-2" v-model="selectOptions.selected">
                     <option :selected="number" v-for="number in selectOptions.numbers" v-bind:value="number"
                       :key="number">{{ number }}</option>
@@ -92,7 +98,7 @@
 
                   <!-- Submit button -->
                   <div class="d-flex justify-content-center mb-2 mt-2">
-                    <button type="submit" class="btn btn-primary btn-block mb-2 d-flex justify-content-center">
+                    <button @click.prevent="submited" type="submit" class="btn btn-primary btn-block mb-2 d-flex justify-content-center">
                       Sign up
                     </button>
                   </div>
@@ -123,8 +129,13 @@
         </div>
       </div>
     </div>
-    <app-custom></app-custom>
-    <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 form-group">
+
+      </div>
+    </div>
+
+    <div class="container" v-if="isSubmit">
       <div class="row">
         <h2>Your Data</h2>
       </div>
@@ -140,6 +151,7 @@
         </ul>
         <label for="">Sex: {{ gender }}</label>
         <label for="">Number: {{ selectOptions.selected }}</label>
+        <label for="">Switched: {{ dataSwitched }}</label>
       </div>
     </div>
 
@@ -167,11 +179,18 @@ export default {
         selected: '',
         numbers: [1, 2, 3, 4, 5, 6]
       },
+      dataSwitched: true,
+      isSubmit: false
     };
   },
   components: {
     appCustom: Custom
-  }
+  },
+  methods: {
+    submited() {
+      this.isSubmit = true
+    }
+  },
 };
 </script>
 
