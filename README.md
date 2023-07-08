@@ -452,3 +452,11 @@ Phân biệt default slot và slot default
 #### Ep13 | #07 | Tạo một Global Mixins và chú ý trong Vue.js
 
 #### Ep13 | #08 | Mixins và Scope, sao lại như vậy với Vue.js
+
+---
+
+#### Ep14 | #01 | Hiểu về Transitions và chuẩn bị code Vue.js
+
+#### Ep14 | #02 | Thử nghịch ngợm transitions xíu trong Vue.js
+
+#### Ep14 | #03 | Viết thử hiệu ứng Fade Transitions với Vue.js
