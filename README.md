@@ -460,3 +460,45 @@ Phân biệt default slot và slot default
 #### Ep14 | #02 | Thử nghịch ngợm transitions xíu trong Vue.js
 
 #### Ep14 | #03 | Viết thử hiệu ứng Fade Transitions với Vue.js
+
+#### Ep14 | #04 | Kết hợp với animation tạo hiệu ứng slide Vue.js
+
+#### Ep14 | #05 | v-show và trường hợp đặc biệt trong lúc làm Vue.js
+
+#### Ep14 | #06 | animate css và sử dụng nhiều class Vue.js
+
+#### Ep14 | #07 | Name và Attribute cho nhiều mục đích trong Vue.js
+
+#### Ep14 | #08 | Transitions giữa các element trong Vue.js
+
+#### Ep14 | #09 | Javascript animation một xíu trong Vue.js
+
+#### Ep14 | #10 | Tạo một hiệu ứng Javascript hay ho Vue.js
+
+#### Ep14 | #11 | Thêm hiệu ứng cho các component trong Vue.js
+
+#### Ep14 | #12 | Tìm hiểu về transition group nào trong Vue.js
+
+#### Ep14 | #13 | Thêm transitions vào list hiệu ứng Vue.js
+
+---
+
+#### Ep15 | #01 | vue resource tương tác server 01
+
+#### Ep15 | #02 | Tìm hiểu cơ bản về Firebase (giao diện cũ) Vue.js
+
+#### Ep15 | #03 | $POST dữ liệu lên Firebase trong Vue.js
+
+#### Ep15 | #04 | $GET dữ liệu từ Firebase trong Vue.js
+
+#### Ep15 | #05 | Setup vue-resource global trong Vue.js
+
+#### Ep15 | #06 | Interceptor với request trong Vue.js
+
+#### Ep15 | #07 | Interceptor với response để fix bug Vue.js
+
+#### Ep15 | #08 | vue-resource để thêm dữ liệu trong Vue.js
+
+#### Ep15 | #09 | Tùy biến vue-resource để sử dụng tốt hơn Vue.js
+
+#### Ep15 | #10 | vue-resource và normal $http trong Vue.js
