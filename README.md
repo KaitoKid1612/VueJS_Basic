@@ -502,3 +502,29 @@ Phân biệt default slot và slot default
 #### Ep15 | #09 | Tùy biến vue-resource để sử dụng tốt hơn Vue.js
 
 #### Ep15 | #10 | vue-resource và normal $http trong Vue.js
+
+---
+
+#### Ep16 | #01 | Cài đặt vue-router vào trong dự án Vue.js
+
+#### Ep16 | #02 | Thiết lập routes cơ bản nhé và có chú ý Vue.js
+
+#### Ep16 | #03 | Routes mode và chế độ history cần thiết Vue.js
+
+#### Ep16 | #04 | router-link xây dưng thanh menu trong Vue.js
+
+#### Ep16 | #05 | Thêm class active khi route hoạt động Vue.js
+
+#### Ep16 | #06 | Cách khác để sử dụng route điều hướng Vue.js
+
+#### Ep16 | #07 | Truyền param vào trong routes Vue.js
+
+#### Ep16 | #08 | Lấy dữ liệu từ trên routes xuống trong Vue.js
+
+#### Ep16 | #09 | Theo dõi sự thay đổi của params trên routes Vue.js
+
+#### Ep16 | #10 | Routes con nào cả nhà, sử dụng phổ biến Vue.js
+
+#### Ep16 | #11 | Điều hướng routes con, xử lí cho các layers Vue.js
+
+#### Ep16 | #12 | Điều hướng User Edit với Vue.js
