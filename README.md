@@ -528,3 +528,33 @@ Phân biệt default slot và slot default
 #### Ep16 | #11 | Điều hướng routes con, xử lí cho các layers Vue.js
 
 #### Ep16 | #12 | Điều hướng User Edit với Vue.js
+
+---
+
+#### Ep17 | #01 | Tại sao lại phải dùng đến Vuex trong Vue.js
+
+#### Ep17 | #02 | Xử lí vấn đề với vuex xem thế nào trong Vue.js
+
+#### Ep17 | #03 | Đùa đấy đây mới là vuex nè cả nhà Vue.js
+
+#### Ep17 | #04 | Central State dịch thế nào đúng nhể trong Vue.js
+
+#### Ep17 | #05 | Lấy dữ liệu với getter trong vuex của Vue.js
+
+#### Ep17 | #06 | mapGetters, sử dụng cú pháp ES trong Vue.js
+
+#### Ep17 | #07 | Mutations thay đổi state từ components Vue.js
+
+#### Ep17 | #08 | mapMutations và một vài lưu ý khi làm Vue.js
+
+#### Ep17 | #09 | Bất đồng bộ và câu chuyện xử lí với actions Vue.js
+
+#### Ep17 | #10 | Tổng hợp kiến thức phần vuex bé tí tẹo Vue.js
+
+#### Ep17 | #11 | Tương tác v-model với vuex thì sao trong Vue.js?
+
+#### Ep17 | #12 | Xây dựng lại cấu trúc folder trong Vue.js thực tế
+
+#### Ep17 | #13 | Chia nhỏ tiếp các thành phần bên trong store Vue.js
+
+#### #End | Lý thuyết | Nhắc nhở trước khi bước vào project Vue.js
